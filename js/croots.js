@@ -41,31 +41,31 @@ adjustUI();
 let curImg = 76;
 let cyclable = [76,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32];
 
-previewImg1.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
-previewImg2.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
+previewImg1.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
+previewImg2.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
 
 function nextImg() {
 	clearInterval(timer);
 	curImg++;
 	if (curImg > cyclable.length-1) { curImg = 0; }
-	previewImg1.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
-	previewImg2.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
+	previewImg1.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
+	previewImg2.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
 }
 
 function prevImg() {
 	clearInterval(timer);
 	curImg--;
 	if (curImg < 0) { curImg = cyclable.length-1; }
-	previewImg1.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
-	previewImg2.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
+	previewImg1.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
+	previewImg2.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
 }
 
 let timer = setInterval(function() {
 	curImg++;
 	if (curImg > cyclable.length-1) { curImg = 0; }
-	console.log('img/previewable/#' + cyclable[curImg] + '.png');
-	previewImg1.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
-	previewImg2.src = 'img/previewable/' + cyclable[curImg] + '.png?v=2';
+	console.log('/img/previewable/#' + cyclable[curImg] + '.png');
+	previewImg1.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
+	previewImg2.src = '/img/previewable/' + cyclable[curImg] + '.png?v=2';
 },500);
 
 let curMap = 37;
@@ -73,15 +73,15 @@ let curMap = 37;
 function nextMap() {
 	curMap++;
 	if (curMap > 44) { curMap = 37; }
-	previewImg3.src = 'img/previewable/1' + curMap + '.png?v=2';
-	previewImg4.src = 'img/previewable/1' + curMap + '.png?v=2';
+	previewImg3.src = '/img/previewable/1' + curMap + '.png?v=2';
+	previewImg4.src = '/img/previewable/1' + curMap + '.png?v=2';
 }
 
 function prevMap() {
 	curMap--;
 	if (curMap < 37) { curMap = 44; }
-	previewImg3.src = 'img/previewable/1' + curMap + '.png?v=2';
-	previewImg4.src = 'img/previewable/1' + curMap + '.png?v=2';
+	previewImg3.src = '/img/previewable/1' + curMap + '.png?v=2';
+	previewImg4.src = '/img/previewable/1' + curMap + '.png?v=2';
 }
 
 var isMobile = {
@@ -106,7 +106,7 @@ var isMobile = {
 };
 
 twitter1.onclick = function() {
-	window.open('https://twitter.com/TheRotyBroi');
+	window.open('https://twitter.com/ROTYBASEdETH');
 }
 
 twitter1.onmouseover = function() {
@@ -118,11 +118,11 @@ twitter1.onmouseout = function() {
 }
 
 twitter2.onclick = function() {
-	window.open('https://twitter.com/TheRotyBroi');
+	window.open('https://twitter.com/ROTYBASEdETH');
 }
 
 twitter3.onclick = function() {
-	window.open('https://twitter.com/TheRotyBroi');
+	window.open('https://twitter.com/ROTYBASEdETH');
 }
 
 discord1.onclick = function() {
@@ -150,8 +150,8 @@ let logoIndex = 0;
 setInterval(function() {
 	logoIndex++;
 	if (logoIndex > 5) { logoIndex = 0; }
-	logo1.src = 'img/trb-logo-' + logoIndex + '.png?v=2';
-	logo2.src = 'img/trb-logo-' + logoIndex + '.png?v=2';
+	logo1.src = '/img/trb-logo-' + logoIndex + '.png?v=2';
+	logo2.src = '/img/trb-logo-' + logoIndex + '.png?v=2';
 },500);
 
 
