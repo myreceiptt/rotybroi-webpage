@@ -170,10 +170,10 @@ console.clear()
 console.log('Selemenjey!!!')
 
 const config = {
-    // src: 'img/preview-crews-0.png',
-    // src: 'img/preview-crews-1.png',
-    src: 'img/preview-crews-3.png',
-    // src: 'img/preview-crews-3.png',
+    // src: '/img/preview-crews-0.png',
+    // src: '/img/preview-crews-1.png',
+    src: '/img/preview-crews-3.png',
+    // src: '/img/preview-crews-3.png',
     // rows: 15, per kolom, ojok kuwalik
     rows: 10,
     // cols: 7, per baris, ojok kuwalik
