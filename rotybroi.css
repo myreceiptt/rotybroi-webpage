@@ -1,7 +1,7 @@
 ﻿@font-face {
   font-family: 'Taman Kanak-Kanak';
-  src: url('font/Font-Tali-Pusar.otf') format('opentype');
-        url('font/Font-Tali-Pusar.ttf') format('truetype');
+  src: url('/font/Font-Tali-Pusar.otf') format('opentype');
+        url('/font/Font-Tali-Pusar.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -527,7 +527,7 @@ ul {
 
 #panicroom {
   max-width: 100%;
-  background-image: url(img/the-melting-land-00.gif);
+  background-image: url(/img/the-melting-land-00.gif);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: top;
