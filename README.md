@@ -4,11 +4,6 @@
 
 ---
 
-
-## Evergreen Notes
-
-- Live URL: https://rotybroi.endhonesa.com/ (HTTP 200)
-
 ## Maintenance by Prof. NOTA Evergreen Standard
 
 This repository is intentionally **frozen** and designed to remain evergreen
@@ -63,6 +58,10 @@ Recommended periodic checks (manual, optional):
 
 Any future functional change must be done in a **new repository or versioned successor**.
 
+### Evergreen Notes
+
+- Live URL: [rotybroi.endhonesa.com](https://rotybroi.endhonesa.com/) (HTTP 200)
+
 ---
 
 ---
@@ -84,11 +83,10 @@ Any future functional change must be done in a **new repository or versioned suc
 The ROTY BROI is the #NFTs collection by Prof. NOTA that initiates The Melting Land phenomenon. The ROTY BROI is part of The KING's NFTs project by Prof. NOTA.
 
 > Regards
-> 
+>
 > [Prof. NOTA](https://nota.endhonesa.com/)
-> 
+>
 > [init.endhonesa.com](https://init.endhonesa.com/)
-> 
 
 <!--
 **myreceiptt/myreceiptt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on Prof. NOTA's GitHub profile.
