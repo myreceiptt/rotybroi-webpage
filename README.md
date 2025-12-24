@@ -4,6 +4,11 @@
 
 ---
 
+
+## Evergreen Notes
+
+- Live URL: https://rotybroi.endhonesa.com/ (HTTP 200)
+
 ## Maintenance by Prof. NOTA Evergreen Standard
 
 This repository is intentionally **frozen** and designed to remain evergreen
